@@ -6,10 +6,10 @@ import { setIsPlaying } from '../timer/timerSlice'
 import './text-line.scss'
 import { toggleModal } from '../modal/modalSlice'
 
-const index = Math.floor(Math.random() * quotesArray.length)
 
 export const TextLine = () => {
-
+    
+    const index = Math.floor(Math.random() * quotesArray.length)
     const [quote, setQuote] = useState(quotesArray[index].quote.split(''))
 
     const [currentIndex, setCurrentIndex] = useState(0)
