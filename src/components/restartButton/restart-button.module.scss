@@ -1,0 +1,14 @@
+.buttonContainer {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+
+    >button {
+        border: none;
+        outline: none;
+        background: transparent;
+        cursor: pointer;
+        margin-top: 2em;
+        height: 2em;
+    }
+}

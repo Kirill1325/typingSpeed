@@ -8,12 +8,9 @@
     color: rgb(100, 102, 105);
 }
 
-
-
 body {
 
     max-width: 100vw;
-
 
     >#root {
 
@@ -23,116 +20,17 @@ body {
             flex-direction: column;
             padding: 0 1em;
             background-color: rgb(50, 52, 55);
-
+            // background-color: rgb(255, 234, 0);
 
             >h1 {
                 text-align: center;
                 padding-top: 4em;
-                flex-basis: 20%;
+                flex-basis: 25%;
             }
 
-            >.timer-container {
-                display: flex;
-                flex-direction: column;
-                gap: 1em;
-                align-items: center;
-                justify-content: center;
-                flex-basis: 20%;
-
-                >.timer {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    border: 1px solid black;
-                    border-radius: 50%;
-                    height: 6em;
-                    width: 6em;
-                }
-
-                >.timer-settings {
-                    display: flex;
-                    gap: 1em;
-
-                    >button {
-                        border: none;
-                        outline: none;
-                        background: transparent;
-                    }
-                }
-            }
-
-            >.text-line {
-                // height: 4.5em;
-                border: 1px solid black;
-                flex-basis: 29%;
-                font-size: 2em;
-                padding: .2em;
-                overflow: hidden;
-
-                >span {
-                    position: relative;
-                }
-
-                >.current {
-                    &:before{
-                        position: absolute;
-                        content: '';
-                        width: 2px;
-                        height: 1em;
-                        top: .2em;
-                        background: white;
-                    }
-
-                }
-
-                >.correct {
-                    color: white
-                }
-
-                >.mistake {
-                    color: red
-                }
-            }
-
-            >.button-container {
-                flex-basis: 11%;
-                display: flex;
-                justify-content: center;
-
-                >button {
-                    border: none;
-                    margin-top: 2em;
-                    height: 2em;
-                }
-            }
-
-            >.statistics {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-basis: 20%;
-
-                >* {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-
-                    // margin: 0 1em;
-                    >div {
-                        border: 1px solid black;
-                        width: 4em;
-                        height: 4em;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        // margin: 0 .5em;
-                    }
-                }
-            }
-
+            
 
         }
     }
+
 }

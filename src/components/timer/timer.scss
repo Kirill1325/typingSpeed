@@ -1,0 +1,31 @@
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 20%;
+
+    >.timer-settings {
+        display: flex;
+        gap: 1em;
+        transition: opacity .3s;
+
+        >button {
+            border: none;
+            outline: none;
+            background: transparent;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+
+    }
+
+    >.disabled {
+        opacity: 0;
+    }
+}
+
+.active {
+    color: rgb(255, 234, 0)
+}
